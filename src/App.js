@@ -1,6 +1,8 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import AddNewProduct from "./pages/AddNewProduct";
 import Buy from "./pages/Buy";
+import Category from "./pages/Category";
 import Contact from "./pages/Contact";
 import Forum from "./pages/Forum";
 import Help from "./pages/Help";
@@ -27,6 +29,8 @@ function App() {
             <Route path = '/login' element= {<Login/>} />
             <Route path = '/register' element= {<Register/>} />
             <Route path = '/itemdetails' element= {<ProductDetails/>} />
+            <Route path = '/add-Products' element= {<AddNewProduct/>} />
+            <Route path = '/categories' element= {<Category/>} />
             
             <Route path="*" element={<Navigate to="/home-page" />} />
       </Routes>

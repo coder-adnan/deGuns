@@ -21,10 +21,10 @@ const Header = () => {
       <div className='flex justify-between px-20 py-4 bg-[#F4F4F4]'>
         <div className='flex gap-10'>
           <img src={egunICon} alt="" width={150} height={150} className='bg-none' />
-          <div className='flex items-center gap-4'>
+          <a href='/categories' className='flex items-center gap-4'>
             <FontAwesomeIcon icon={faBars} className='text-xl' />
             <p className='font-semibold text-[18px]'>Categories</p>
-          </div>
+          </a>
         </div>
         <div className='flex items-center gap-4'>
           <a className='font-semibold text-[18px]' href='/home-page'>Home</a>
