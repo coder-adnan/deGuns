@@ -20,9 +20,6 @@ const Register = () => {
         <input type="text" className='lg:w-[620px] px-2 border-2 border-gray-300 lg:h-[50px] rounded-md placeholder:text-gray-400' placeholder='Enter Answer' name="" id="" />
         <button className='bg-[#8FA666] py-[16px] px-[77px] w-[620px] text-white font-medium '>Next</button>
         </div>
-
-  
-
     </div>
   )
 }

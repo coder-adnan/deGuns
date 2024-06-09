@@ -14,9 +14,9 @@ const Home = () => {
         <div className='relative'>
           <img src={backgroundimage} alt="" className='w-[100%]' />
         </div>
-        <div className='absolute lg:top-[25%] top-[20%] lg:w-2/3 '>
-          <h1 className='text-white xl:text-[120px] font-semibold ml-[8%] mb-1 '>eGun</h1>
-          <h2 className='text-white xl:text-[48px] ml-[8%] leading-[60px] '>The marketplace for hunters, <br></br> shooters and anglers</h2>
+        <div className='absolute xl:top-[25%] top-[220px] lg:w-2/3 '>
+          <h1 className='text-white xl:text-[120px] text-[40px] font-semibold ml-[8%] mb-1 '>eGun</h1>
+          <h2 className='text-white xl:text-[48px] text-[20px] ml-[8%] leading-[60px] '>The marketplace for hunters, <br></br> shooters and anglers</h2>
           <button className='bg-[#8FA666] text-white mt-6 px-14 ml-[8%] p-2 text-[16px] font-semibold '>Explore</button>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Home = () => {
           <button type="button" className='mt-8 text-white font-semibold py-2 px-4 bg-[#8FA666]'>Search Guns</button>
         </div>
         <div>
-          <button className='mt-4 font-semibold max-xl:ml-[10%] underline'>Clear Filter</button>
+          <button className='mt-4 font-semibold ml-2 underline text-[14px] uppercase'>Clear Filters</button>
         </div>
       </div>
       {/* popular Category section */}

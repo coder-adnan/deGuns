@@ -6,6 +6,7 @@ import Forum from "./pages/Forum";
 import Help from "./pages/Help";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import ProductDetails from "./pages/ProductDetails";
 import Register from "./pages/Register";
 import Sell from "./pages/Sell";
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
@@ -25,6 +26,8 @@ function App() {
             <Route path="/sell" element={<Sell />} />
             <Route path = '/login' element= {<Login/>} />
             <Route path = '/register' element= {<Register/>} />
+            <Route path = '/itemdetails' element= {<ProductDetails/>} />
+            
             <Route path="*" element={<Navigate to="/home-page" />} />
       </Routes>
     </Router>
