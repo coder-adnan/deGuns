@@ -18,7 +18,7 @@ const Header = () => {
           <a className='bg-white px-6 rounded-md uppercase font-semibold' href='/login' >Login</a>
         </div>
       </div>
-      <div className='flex justify-between px-20 py-4 bg-[#F4F4F4]'>
+      <div className='flex justify-between px-20 py-4 bg-[#F4F4F4] space-x-3'>
         <div className='flex gap-10'>
           <img src={egunICon} alt="" width={150} height={150} className='bg-none' />
           <a href='/categories' className='flex items-center gap-4'>

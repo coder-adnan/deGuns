@@ -1,6 +1,7 @@
 import React from 'react'
 import cardSpecial from '../assets/CardSpecial.png'
 import addVector from '../assets/addVector.png'
+import iteeem from '../assets/iteeem.png'
 
 const Sell = () => {
   return (
@@ -10,7 +11,7 @@ const Sell = () => {
     <img src='' className='rounded-full bg-[#8FA666]' width={50} alt="" />
     <p className='font-semibold text-[18px]'>Katzerun</p>
    </div>
-   <a href="/add-Products" className='bg-[#8FA666] px-4 py-1 uppercase text-white flex gap-4 text-[18px]'><img src={addVector} className='w-4 h-4 mt-2' alt="" /> add new products</a>
+   <a href="/add-Products" className='bg-[#8FA666] px-4 py-1 uppercase text-white flex gap-4 text-[18px]'><img src={addVector} className='w-4 h-4 mt-[6px]' alt="" /> add new products</a>
     </div>
 
     <div className='mt-10 px-20'>
@@ -20,7 +21,14 @@ const Sell = () => {
         <img src={cardSpecial} alt="" />
         <img src={cardSpecial} alt="" />
         <img src={cardSpecial} alt="" />
-        <img src={cardSpecial} alt="" />
+        {/* <img src={cardSpecial} alt="" /> */}
+        <div className='px-4 py-3 border border-[#B9B9BA]'>
+        <img src={iteeem} alt="" width={186} />
+        <h1 className='font-medium text-[14px] text-[#222222] mt-5'>VANGUARD VEO HD IV 1042 10 x 42 binoculars</h1>
+        <p className='text-[14px] font-extrabold text-[#586740]'>479.95 EUR</p>
+
+
+        </div>
       </div>
     </div>
 

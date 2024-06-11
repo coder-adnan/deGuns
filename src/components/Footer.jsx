@@ -1,17 +1,24 @@
 import React from 'react'
-// import egunIcon from '../assets/whiteEgunIcon.png'
-// import facebookIcon from '../assets/facebookIcon.png'
-// import twitterIcon from '../assets/linkedn.png';
-// import linkednIcon from '../assets/Twitter logo 1.png'
-// import pinterestIcon from '../assets/pinterestIcon.png'
+import egunIcon from '../assets/Egun Logo.png'
+import facebookIcon from '../assets/facebookIcon.png'
+import twitterIcon from '../assets/Twitter logo 1.png';
+import linkednIcon from '../assets/linkedn.png'
+import pinterestIcon from '../assets/pinterestIcon.png'
 
 const Footer = () => {
     return (
         <>
         <div className='bg-[#586740] p-20 flex justify-between'>
 
-            <div>
-                {/* <img src={egunIcon} alt="" className='' /> */}
+            <div className='mt-10'>
+                <img src={egunIcon} alt="" width={200} className='' />
+                <div className='flex gap-2 m-6'>
+                <img src={twitterIcon} alt="" width={25} />
+                <img src={facebookIcon} alt="" width={25} />
+                <img src={pinterestIcon} alt="" width={25} />
+                <img src={linkednIcon} alt="" width={25}/>
+                </div>
+
 
             </div>
             <div>

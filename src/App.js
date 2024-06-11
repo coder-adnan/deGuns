@@ -8,6 +8,7 @@ import Forum from "./pages/Forum";
 import Help from "./pages/Help";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ProductDetails from "./pages/ProductDetails";
 import Register from "./pages/Register";
 import Sell from "./pages/Sell";
@@ -31,6 +32,8 @@ function App() {
             <Route path = '/itemdetails' element= {<ProductDetails/>} />
             <Route path = '/add-Products' element= {<AddNewProduct/>} />
             <Route path = '/categories' element= {<Category/>} />
+            <Route path = '/privacy-policy' element= {<PrivacyPolicy/>} />
+            
             
             <Route path="*" element={<Navigate to="/home-page" />} />
       </Routes>
